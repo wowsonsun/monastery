@@ -35,11 +35,11 @@ public class UserTest {
 	public void addUser() {
 		User user = new User();
 		String id ="1";
-	/*	user.setNickname("卧槽");
-		user.setState(111);
-		System.out.println(userService.insertUser(user));*/
-		User listUser = userService.findAllUserById(id);
-		System.out.println("id==1::"+listUser.getNickname());
+		user.setNickname("双十一");
+		user.setState(11111);
+		System.out.println(userService.insertUser(user));
+	/*	User listUser = userService.findAllUserById(id);
+		System.out.println("id==1::"+listUser.getNickname());*/
 		/*List<User> listUser = userService.findAllUserById(id)
 		for(int i=0; i<listUser.size();i++){
 			System.out.println(listUser.get(i));

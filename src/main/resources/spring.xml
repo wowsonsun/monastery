@@ -17,6 +17,7 @@
 		</property>
 			<property name="ignoreUnresolvablePlaceholders" value="true" />
 	</bean> -->
+	<!-- ignore-unresolvable：是否忽略解析不到的属性，如果不忽略，找不到将抛出异常  -->
 	<context:property-placeholder location="classpath:config.properties"  ignore-unresolvable="true"/>
 	<!-- 与上面的配置等价，下面的更容易理解 -->
 	
